@@ -1,0 +1,22 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="0"/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/item_list"
+        android:name="com.example.samsung.proyectorepaso.ItemListFragment"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+        tools:context=".ItemListActivity" tools:layout="@android:layout/list_content" />
+
+</LinearLayout>
+
+
